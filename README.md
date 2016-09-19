@@ -9,7 +9,7 @@ Everyone loves their imoutos.
     mount /dev/nbd0p2 /mnt
     ./create_fh.sh /mnt
     ./install_guix.sh /mnt
+    ./install_packages.sh /mnt linux-libre coreutils util-linux bash
     # TODO:
-    # * Install guix packages
     # * Install additional configuration files
     # * Install grub

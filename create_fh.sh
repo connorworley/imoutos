@@ -2,6 +2,8 @@ ROOT=$1
 install -o root -g root -m 755 -dv "$ROOT/"
 ln -sv usr/bin "$ROOT/bin"
 install -o root -g root -m 755 -dv "$ROOT/boot"
+#install -o root -g root -m 700 -dv "$ROOT/boot/efi"
+#install -o root -g root -m 755 -dv "$ROOT/boot/grub"
 install -o root -g root -m 755 -dv "$ROOT/dev"
 install -o root -g root -m 755 -dv "$ROOT/etc"
 install -o root -g root -m 755 -dv "$ROOT/home"
