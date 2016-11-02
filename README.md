@@ -1,5 +1,5 @@
 # imoutos
-Everyone loves their imoutos.
+Imoutos is an attempt at my own Linux distro.  No longer being developed.
 ## Bootstrapping
     qemu-img create -f qcow2 imoutos.qcow2 2G
     modprobe nbd
